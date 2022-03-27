@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive, monospace;
+    background-color: #3e171c;
+    color: #3e171c;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.bigDiv {
+    background-color: #fcc8c9;
+    padding: 1%;
+    border-radius: 10px;
+    width: 25%;
+    margin: 0 AUTO;
+    margin-top: 10%;
+}
+
+.hide {
+    display: none;
+}
+
+.upDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addItem {
+    font-family: cursive, monospace;
+    border: none;
+    padding: 1rem 0.6rem;
+    border-radius: 15px;
+    background-color: #3e171c;
+    color: #f7b7b8;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.addItemForm {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f79b9b;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    padding: 1%;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0 AUTO;
+    margin-top: 10%;
+    z-index: 10;
+}
+
+.close {
+    font-size: 3rem;
+    color: #3e171c;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.titlu {
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+.item {
+    font-size: 1rem;
+    font-family: cursive, monospace;
+    width: 94%;
+    margin: 0 AUTO;
+    height: 5rem;
+    padding: 1%;
+    resize: none;
+    background: #fcc8c9;
+    border: 0 none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.cediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    font-family: cursive, monospace;
+    border: none;
+    padding: 1rem 0.6rem;
+    border-radius: 15px;
+    background-color: #3e171c;
+    color: #f7b7b8;
+    margin: 1rem 0.5rem auto;
+}
+
+.close-li {
+    font-size: 2rem;
+    color: #3e171c;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.liv {
+    margin: 0.6rem 0;
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
